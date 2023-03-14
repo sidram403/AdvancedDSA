@@ -74,6 +74,114 @@ int main(){
  C.Roll = 3;
 }
 ```
+## 3. Constructor & Destructor ([Examples](Constructor&Destructor))
+
+- In advanced data structures and algorithms (DSA), constructors and destructors are essential concepts used in object-oriented programming languages like C++, Java, and Python.
+- These concepts help in managing the memory and resources of objects created during program execution. 
+
+## In C++, a constructor can be declared in three ways: 
+
+### 1. Default Constructor  
+### 2. Parameterized Constructor  
+### 3. Copy Constructor  
+
+## 1. **Default** Constructor
+
+- As a default constructor with no arguments 
+- The default constructor initializes the object with default values
+
+Syntax:
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+// Class representation 
+class Student{
+    public:
+    .......... // Member of the class
+    .......... // Member of the class
+        
+    // Default Construction representation 
+    Student(){
+        cout<<"Default Constructor"<<endl;
+    }    
+};
+
+int main(){
+    Student A; // Object of the Class A
+}
+```
+## 2. Parameterized Constructor
+
+- As a parameterized constructor that accepts one or more arguments.
+- The parameterized constructor initializes the object with the values passed as arguments.
+
+Syntax:
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+// Class representation 
+class Student{
+    public:
+    .......... // Member of the class
+    .......... // Member of the class
+        
+    // Parameterized Construction representation 
+    Student(string s1, int n1){
+        Name = s1;
+        Roll = n1;
+        cout<<"Parameterized Constructor"<<endl;
+    }    
+};
+
+int main(){
+    Student A("para1", para2); // Object of the Class A
+}
+```
+
+## 3. Copy Constructor
+
+- Copy constructors, which initialize an object by copying the values of another object of the same class.
+
+Syntax:
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+// Class representation 
+class Student{
+    public:
+    .......... // Member of the class
+    .......... // Member of the class
+        
+    // Parameterized Construction representation 
+    Student(string s1, int n1){
+        Name = s1;
+        Roll = n1;
+        cout<<"Parameterized Constructor"<<endl;
+    } 
+    // Copy Construction representation 
+    Student(Student &A){
+        Name = A.Name;
+        Roll = A.Roll;
+        cout<<"Copy Constructor"<<endl;
+    } 
+};
+
+int main(){
+    Student A("para1", para2); // Object of the Class A
+    Student B = A;
+}
+```
+
+
+
+
+
 
 
 
