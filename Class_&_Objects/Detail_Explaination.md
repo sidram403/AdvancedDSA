@@ -177,6 +177,43 @@ int main(){
     Student B = A;
 }
 ```
+## Destructor
+
+- A destructor, on the other hand, is another special member function of a class that is invoked automatically when an object is destroyed.
+-  Its purpose is to release any resources allocated by the object during its lifetime.
+- This includes freeing memory, closing open files, releasing network connections, and so on.
+-  In C++, a destructor is declared with the same name as the class, preceded by a tilde (~).
+
+Syntax:
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+// Class representation 
+class Student{
+    public:
+    .......... // Member of the class
+    .......... // Member of the class
+        
+    // Parameterized Construction representation 
+    Student(string s1, int n1){
+        Name = s1;
+        Roll = n1;
+        cout<<"Parameterized Constructor"<<endl;
+    } 
+    // Destructor representation 
+    ~Student(){
+        cout<<"Destructor representation"<<endl;
+    } 
+    
+};
+
+int main(){
+    Student A("para1", para2); // Object of the Class A
+}
+```
+
 
 
 
