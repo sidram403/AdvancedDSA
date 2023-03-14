@@ -74,7 +74,7 @@ int main(){
  C.Roll = 3;
 }
 ```
-## 3. Constructor & Destructor ([Examples](Constructor&Destructor))
+## 3. Constructor & Destructor ([Examples](Constructor&Destructor.cpp))
 
 - In advanced data structures and algorithms (DSA), constructors and destructors are essential concepts used in object-oriented programming languages like C++, Java, and Python.
 - These concepts help in managing the memory and resources of objects created during program execution. 
