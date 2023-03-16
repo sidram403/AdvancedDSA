@@ -12,5 +12,9 @@
 
 ## Topics Cover
 - ### [Arrays](Arrays/Docs.md)
+- ### [Vectors](Vectors/Docs.md)
+- ### [DEQUE](DEQUE/Docs.md)
+- ### [Stack](Stack/Docs.md)
+- ### [List](List/Docs.md)
 
 
