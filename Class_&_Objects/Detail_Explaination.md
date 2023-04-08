@@ -214,7 +214,15 @@ int main(){
 }
 ```
 
+## Pass By Value 
 
+Copy the value from main() function and use it in required function()
+
+
+
+## Pass By Reference
+
+Same value from main() function pass to req
 
 
 
