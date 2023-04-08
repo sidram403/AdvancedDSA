@@ -32,7 +32,7 @@
  - O(n+1) -----> new array upto 'n+1' elements
  - O(2*q) ----> we updating 2 times 'k' value for every queries
  
-## xample :
+## Example :
 
 ```c++
 Input : 6
