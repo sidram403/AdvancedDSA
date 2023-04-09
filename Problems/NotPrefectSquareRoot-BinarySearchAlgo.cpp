@@ -26,3 +26,12 @@ int main(){
     int output = binary_search(n);
     cout<<output;
 }
+
+
+--Input--
+25
+24    
+--Output--
+5 
+4    
+    
