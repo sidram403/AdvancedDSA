@@ -29,9 +29,7 @@ int main(){
 
 
 --Input--
-25
 24    
---Output--
-5 
+--Output-- 
 4    
     
